@@ -1,4 +1,4 @@
-/*************************[Shelter v0.1.0]****************************/
+/*************************[Shelter v0.1.1]****************************/
 /* Shelter is a simple way to start your CSS off on the right track. */
 /*********************************************************************/
 
@@ -10,16 +10,16 @@
     /* MYTH */
     :root {
         /* Color Palette */
-        var-pri-col: #333333;
-        var-sec-col: #FF8447;
-        var-ter-col: #4274C9;
+        --pri-col: #333333;
+        --sec-col: #FF8447;
+        --ter-col: #4274C9;
         
         /* Text Shadow */
-        var-text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+        --text-shadow: 1px 1px 0px rgba(0,0,0,.25);
 
         /* Transparent BGs */
-        var-trans-black: rgba(0,0,0,0.75);
-        var-trans-white: rgba(255,255,255,0.90);
+        --trans-black: rgba(0,0,0,0.75);
+        --trans-white: rgba(255,255,255,0.90);
     }
 
     /* SASS */
